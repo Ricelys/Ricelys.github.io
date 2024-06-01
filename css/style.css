@@ -1,0 +1,71 @@
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+    color: gray;
+  }
+
+  .pa {
+    font-size: 14px;
+    color: gray;
+  }
+
+  input[type="submit"] {
+    border: 3px solid #0066ff;
+    background-color: #0066ff;
+    border-radius: 5px;
+    padding: 10px ;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    background-color: #6699ff;
+  }
+
+  .miform {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .miform div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  #name,
+  #email,
+  #asunto {
+    border: 2px solid grey;
+    background-color: #f2f2f2;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #mensaje {
+    border: 2px solid grey;
+    margin: 20px;
+    background-color: #f2f2f2;
+    width: calc(100% - 40px); /* Full width minus margin */
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  label {
+    margin-bottom: 5px;
+    color: grey;
+  }
+
+  .buttons {
+    margin: 20px;
+  }
